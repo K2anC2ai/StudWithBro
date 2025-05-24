@@ -4,13 +4,11 @@
 
 # StudWithBro
 
-> ควยหีเย็ดควย
+> แหล่งแบ่งปันความรู้และถาม-ตอบ โดย K2anC2ai และเพื่อนๆ
 
-- ควยหีเย็ดควย
-- ควยหีเย็ดควย
-- ควยหีเย็ดควย
+- แชร์ประสบการณ์การเรียนรู้
+- ถาม-ตอบปัญหาต่างๆ
+- รวมเทคนิคและตัวอย่างโค้ด
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#StudWithBro)
-
-<!-- background color -->
+[GitHub](https://github.com/K2anC2ai/StudWithBro/)
+[เริ่มต้นเลย!](#StudWithBro)

@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
   <style>
     /* Indent bold section headers in the sidebar */
     .sidebar-nav strong {
@@ -17,12 +18,119 @@
       font-size: 1em;
       font-weight: bold;
     }
+
+    /* Quiz Styles */
+    .quiz-container {
+      max-width: 500px;
+      margin: 2em auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      padding: 2em 1.5em;
+      font-family: 'PT Sans', Arial, sans-serif;
+    }
+    .quiz-question {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 1.5em;
+    }
+    .quiz-qnum {
+      background: #673ab7;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 50%;
+      width: 2em;
+      height: 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1em;
+      font-size: 1.2em;
+      box-shadow: 0 2px 8px rgba(103,58,183,0.15);
+    }
+    .quiz-qtext {
+      margin-bottom: 0.5em;
+      font-size: 1.1em;
+    }
+    .quiz-choices {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+    }
+    .quiz-choice {
+      background: #f3f3f3;
+      border-radius: 8px;
+      padding: 0.5em 1em;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-size: 1em;
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+    }
+    .quiz-choice:hover {
+      background: #e1bee7;
+    }
+    .quiz-btn {
+      background: #673ab7;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.7em 2em;
+      font-size: 1.1em;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 1em;
+      transition: background 0.2s;
+      box-shadow: 0 2px 8px rgba(103,58,183,0.15);
+    }
+    .quiz-btn:hover {
+      background: #512da8;
+    }
+    .quiz-result {
+      margin-top: 1.5em;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #388e3c;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <div id="app"></div>
   
   <script>
+    function bindQuiz() {
+      var submitBtn = document.getElementById('quiz-submit');
+      if (submitBtn) {
+        submitBtn.onclick = function() {
+          let score = 0;
+          if (document.querySelector('input[name="q1"]:checked')?.value === "4") score++;
+          if (document.querySelector('input[name="q2"]:checked')?.value === "Paris") score++;
+          document.getElementById('quiz-result').innerHTML = "Your score: " + score + "/2";
+          // Update sidebar score
+          const examScore = document.getElementById('exam-score');
+          if (examScore) examScore.innerText = score + "/2";
+        };
+      }
+    }
+
+    window.$docsify = window.$docsify || {};
+    var oldReady = window.$docsify.ready;
+    window.$docsify.ready = [
+      function() {
+        if (typeof oldReady === 'function') oldReady();
+        bindQuiz();
+      }
+    ];
+    window.$docsify.plugins = [
+      ...(window.$docsify.plugins || []),
+      function(hook) {
+        hook.doneEach(function() {
+          bindQuiz();
+        });
+      }
+    ];
     window.$docsify = {
       loadSidebar: true,
     alias: {
