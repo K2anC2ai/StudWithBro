@@ -4,7 +4,7 @@
 - K2anC2ai
 
   - [MyQnA](K2anC2ai/emqna.md)
-  - [Profile](K2anC2ai/emqna.md)
+  - [Profile](K2anC2ai/profile.md)
   - [Adding pages](adding-pages.md)
 
 

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <style>
     /* Indent bold section headers in the sidebar */
     .sidebar-nav strong {
@@ -18,15 +18,16 @@
       font-weight: bold;
     }
 
-    /* Quiz Styles */
+    /* Quiz Styles for dark theme */
     .quiz-container {
       max-width: 500px;
       margin: 2em auto;
-      background: #fff;
+      background: #23272f; /* ปรับพื้นหลังให้เข้ากับ dark theme */
       border-radius: 16px;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.18);
       padding: 2em 1.5em;
       font-family: 'PT Sans', Arial, sans-serif;
+      color: #f1f1f1; /* สีตัวอักษร */
     }
     .quiz-question {
       display: flex;
@@ -34,7 +35,7 @@
       margin-bottom: 1.5em;
     }
     .quiz-qnum {
-      background: #673ab7;
+      background: #8e7cf4;
       color: #fff;
       font-weight: bold;
       border-radius: 50%;
@@ -50,6 +51,7 @@
     .quiz-qtext {
       margin-bottom: 0.5em;
       font-size: 1.1em;
+      color: #f1f1f1;
     }
     .quiz-choices {
       display: flex;
@@ -57,7 +59,7 @@
       gap: 0.5em;
     }
     .quiz-choice {
-      background: #f3f3f3;
+      background: #2e3440;
       border-radius: 8px;
       padding: 0.5em 1em;
       cursor: pointer;
@@ -66,12 +68,13 @@
       display: flex;
       align-items: center;
       gap: 0.5em;
+      color: #eceff4;
     }
     .quiz-choice:hover {
-      background: #e1bee7;
+      background: #3b4252;
     }
     .quiz-btn {
-      background: #673ab7;
+      background: #8e7cf4;
       color: #fff;
       border: none;
       border-radius: 8px;
@@ -84,13 +87,13 @@
       box-shadow: 0 2px 8px rgba(103,58,183,0.15);
     }
     .quiz-btn:hover {
-      background: #512da8;
+      background: #6c63b5;
     }
     .quiz-result {
       margin-top: 1.5em;
       font-size: 1.2em;
       font-weight: bold;
-      color: #388e3c;
+      color: #a3e635;
       text-align: center;
     }
   </style>
@@ -114,64 +117,29 @@
       }
     }
 
-    window.$docsify = window.$docsify || {};
-    var oldReady = window.$docsify.ready;
-    window.$docsify.ready = [
-      function() {
-        if (typeof oldReady === 'function') oldReady();
-        bindQuiz();
-      }
-    ];
-    window.$docsify.plugins = [
-      ...(window.$docsify.plugins || []),
-      function(hook) {
-        hook.doneEach(function() {
-          bindQuiz();
-        });
-      }
-    ];
     window.$docsify = {
       loadSidebar: true,
-    alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
-    },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       coverpage: true,
-      sidebarDisplayLevel: 0, // set sidebar display level
+      sidebarDisplayLevel: 0,
       name: '',
       repo: '',
       auto2top: true,
-        coverpage: true,
-        executeScript: true,
-        // hideSidebar: true,
-        loadSidebar: true,
-        loadNavbar: true,
-        // mergeNavbar: true,
-        maxLevel: 4,
-        // repo: 'docsifyjs/docsify',
-        // routerMode: 'history',
-        subMaxLevel: 2,
-        darklightTheme: {
-          siteFont : 'PT Sans',
-          defaultTheme : 'light',
-          codeFontFamily : 'Roboto Mono, Monaco, courier, monospace',
-          bodyFontSize : '17px',
-          dark: {
-            background: '#1e1e1e',
-            highlightColor: '#e96900',
-            codeBackgroundColor : '#2d2d2d',
-            codeTextColor : '#b9b9b9',
-          },
-          light: {
-            background: '#ffffff',
-            highlightColor: '#e96900',
-            codeBackgroundColor : '#f8f8f8',
-            codeTextColor : '#525252',
-          }
+      executeScript: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+      plugins: [
+        function(hook) {
+          hook.doneEach(function() {
+            bindQuiz();
+          });
         }
-    }
+      ]
+    };
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/docsify-darklight-theme.min.js"></script>
 </body>
 </html>
