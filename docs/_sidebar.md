@@ -4,7 +4,10 @@
 - K2anC2ai
 
   - [MyQnA](K2anC2ai/emqna.md)
+  - [Profile](K2anC2ai/emqna.md)
   - [Adding pages](adding-pages.md)
+
+
 - สมาชิกคนอื่นๆ
   - (รอการเพิ่มสมาชิกใหม่)
 
