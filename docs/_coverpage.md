@@ -2,15 +2,15 @@
 
 ![logo](_media/icon.svg)
 
-# docsify <small>3.5</small>
+# StudWithBro
 
-> A magical documentation site generator.
+> ควยหีเย็ดควย
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- ควยหีเย็ดควย
+- ควยหีเย็ดควย
+- ควยหีเย็ดควย
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[Get Started](#StudWithBro)
 
 <!-- background color -->
