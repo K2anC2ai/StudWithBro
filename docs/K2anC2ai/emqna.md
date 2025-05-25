@@ -3,18 +3,29 @@
 Welcome
 
 
-## lesson1
 
-hekuay
+## lesson 1
 
-```bash
-docsify init ./docs
-```
+### what i know
 
-## lesson2
+what diff of verification and validation 
 
-hekuay
+> verification = build the product right, validation = build the right product
 
-```bash
-docsify init ./docs
-```
+fixing bug is a tester work?
+
+> hell nah
+
+
+### what i dont clear
+
+stakeholder? who the faq is it? user? dev? ba? or everyone?
+
+> ans
+
+i dont know what all the thing that verification will do like system req, they said user req is verficantion what a twisted
+
+> ans
+
+
+
