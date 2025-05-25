@@ -5,15 +5,26 @@ Welcome
 
 ## lesson1
 
-hekuay
+Knowledge
+
+```bash
+docsify init ./docs
+```
+Question 
 
 ```bash
 docsify init ./docs
 ```
 
+
 ## lesson2
 
-hekuaytad 
+Knowledge
+
+```bash
+docsify init ./docs
+```
+Question 
 
 ```bash
 docsify init ./docs
