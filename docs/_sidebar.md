@@ -21,10 +21,17 @@
   - [MyQnA](frame/Iframe.md)
   - [Profile](frame/profile.md)
 
+<<<<<<< HEAD
 - Potae
 
   - [MyQnA](potae/QnA.md)
   - [Profile](potae/profile.md)
+=======
+- Ait
+  - [MyQnA](Ait/Amd.md)
+  - [Profile](Ait/profile.md)
+  - [Adding pages](adding-pages.md)
+>>>>>>> d2956b35bed8b85175546b8489fd5419c3467647
 
 - สมาชิกคนอื่นๆ
   - (รอการเพิ่มสมาชิกใหม่)
