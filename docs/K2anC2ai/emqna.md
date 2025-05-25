@@ -8,24 +8,24 @@ Welcome
 
 ### what i know
 
-what diff of verification and validation 
+what diff of **verification** and **validation** 
 
-> verification = build the product right, validation = build the right product
+> **verification** = build the product right, **validation** = build the right product
 
 fixing bug is a tester work?
 
-> hell nah
+> <font color="red">**hell nah**</font>
 
 
 ### what i dont clear
 
 stakeholder? who the faq is it? user? dev? ba? or everyone?
 
-> ans
+> <font color="red">ans</font>
 
 i dont know what all the thing that verification will do like system req, they said user req is verficantion what a twisted
 
-> ans
+> <font color="red">ans</font>
 
 
 
