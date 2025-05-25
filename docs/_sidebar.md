@@ -21,6 +21,11 @@
   - [MyQnA](frame/Iframe.md)
   - [Profile](frame/profile.md)
 
+- Potae
+
+  - [MyQnA](potae/QnA.md)
+  - [Profile](potae/profile.md)
+
 - Ait
   - [MyQnA](Ait/Amd.md)
   - [Profile](Ait/profile.md)
