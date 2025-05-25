@@ -16,7 +16,10 @@
   - [MyQnA](Aum/QnA.md)
   - [Profile](Aum/profile.md)
 
+- frame
 
+  - [MyQnA](frame/Iframe.md)
+  - [Profile](frame/profile.md)
 
 - สมาชิกคนอื่นๆ
   - (รอการเพิ่มสมาชิกใหม่)
