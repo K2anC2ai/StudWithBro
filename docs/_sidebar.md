@@ -7,6 +7,11 @@
   - [Profile](K2anC2ai/profile.md)
   - [Adding pages](adding-pages.md)
 
+- Aum
+
+  - [MyQnA](Aum/QnA.md)
+  - [Profile](Aum/profile.md)
+
 
 - สมาชิกคนอื่นๆ
   - (รอการเพิ่มสมาชิกใหม่)
