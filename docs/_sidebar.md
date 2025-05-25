@@ -11,6 +11,13 @@
 
   - [MyQnA](chatmongkolsawarose/kurtqna.md)
 
+- Aum
+
+  - [MyQnA](Aum/QnA.md)
+  - [Profile](Aum/profile.md)
+
+
+
 - สมาชิกคนอื่นๆ
   - (รอการเพิ่มสมาชิกใหม่)
 
