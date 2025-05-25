@@ -21,6 +21,11 @@
   - [MyQnA](frame/Iframe.md)
   - [Profile](frame/profile.md)
 
+- Ait
+  - [MyQnA](Ait/Amd.md)
+  - [Profile](Ait/profile.md)
+  - [Adding pages](adding-pages.md)
+
 - สมาชิกคนอื่นๆ
   - (รอการเพิ่มสมาชิกใหม่)
 
