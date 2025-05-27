@@ -10,7 +10,7 @@
 - chatmongkolsawarose
 
   - [MyQnA](chatmongkolsawarose/kurtqna.md)
-  - [MyAnsQnA](chatmongkolsawarose/kurtans.md)
+  - [MyQ and YourA](chatmongkolsawarose/kurtans.md)
 
 - Aum
 
