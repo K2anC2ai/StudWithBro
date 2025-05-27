@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
+![logo](image/aatrox.gif)
 
 # StudWithBro
 
