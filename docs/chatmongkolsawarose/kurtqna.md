@@ -1,31 +1,28 @@
 # MyQnA
 
-Welcome
+This is a page i want to show you how good i am
 
 
 ## lesson1
 
-Knowledge
+Question
 
 ```bash
-docsify init ./docs
+Why do we study or learn ISTQB tester certification?
 ```
-Question 
+Answer 
 
 ```bash
-docsify init ./docs
+It makes it easier for those who want to become testers, and even those who do not want to become testers can still gain valuable knowledge.
 ```
 
-
-## lesson2
-
-Knowledge
+Question
 
 ```bash
-docsify init ./docs
+what is the sadnest of history if software has defect or bug
 ```
-Question 
+Answer 
 
 ```bash
-docsify init ./docs
+In the year 2019 , the Boeing 737 MAX continued to face issues following two fatal crashes in 2018 and 2019 that resulted in a total of 346 deaths
 ```
