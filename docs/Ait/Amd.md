@@ -1,31 +1,29 @@
 # MyQnA
 
-Welcome
-
+<span style="color:yellow" >อยู่ในช่วง~~~ จารกบ ขอถาม!!!</span>
 
 ## lesson1
 
-Knowledge
+**Question 1**
 
 ```bash
-docsify init ./docs
+ทำไมเราถึงต้องใช้ git หรือ GitHub มีประโยชน์อย่างไรในการใช้งาน
 ```
-Question 
+<span style="color:red">Answer</span><br>
 
 ```bash
-docsify init ./docs
+มีประโยชน์มากมายหลากหลายคุณประโยชน์ แม้กระทั่งเก็บข้อมูลการเขียนโค้ดไว้ ไม่หนักเครื่อง หรือแม้กระทั่งการทำงานกับเพื่อนได้ แชร์การทำงานกับเพื่อนได้ แบ่งๆ branch กันไปทำ อยากอัพเดทก็ทำได้ตลอด
 ```
 
+---
 
-## lesson2
-
-Knowledge
+**Question 2**
 
 ```bash
-docsify init ./docs
+พน. มาคิดใหม่
 ```
-Question 
+<span style="color:red">Answer</span><br>
 
 ```bash
-docsify init ./docs
+พน. มาคิดใหม่
 ```

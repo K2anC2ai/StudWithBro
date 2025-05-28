@@ -28,9 +28,10 @@
   - [Profile](potae/profile.md)
 
 - Ait
-  - [MyQnA](Ait/Amd.md)
   - [Profile](Ait/profile.md)
-  - [Adding pages](adding-pages.md)
+  - [MyQnA](Ait/Amd.md)
+  - [MyQ&YouA](Ait/MyQ&YouA.md)
+
 
 - สมาชิกคนอื่นๆ
   - (รอการเพิ่มสมาชิกใหม่)
