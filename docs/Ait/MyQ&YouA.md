@@ -7,7 +7,7 @@
 **Question 1**
 
 ```bash
-พน. มาคิดใหม่v2
+พน. มาคิดใหม่v2a
 ```
 <span style="color:red">Answer</span><br>
 
@@ -20,7 +20,7 @@
 **Question 2**
 
 ```bash
-พน. มาคิดใหม่v2
+พน. มาคิดใหม่v2a
 ```
 <span style="color:red">Answer</span><br>
 
