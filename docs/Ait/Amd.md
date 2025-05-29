@@ -25,5 +25,5 @@ Why you need tester?
 <span style="color:red">Answer</span><br>
 
 ```bash
-Coder often ignore mistakes. because u think that you did it right.🤪
+Coder often ignore mistakes. because u think that you did it right.
 ```
