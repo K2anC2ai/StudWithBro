@@ -7,10 +7,18 @@
   - [Profile](K2anC2ai/profile.md)
   - [Adding pages](adding-pages.md)
 
+
 - chatmongkolsawarose
 
   - [MyQnA](chatmongkolsawarose/kurtqna.md)
   - [MyQ and YourA](chatmongkolsawarose/kurtans.md)
+
+
+- Ait
+  - [Profile🤗](Ait/profile.md)
+  - [MyQnA🙌](Ait/Amd.md)
+  - [MyQ&YouA🤷‍♂️](Ait/MyQ&YouA.md)
+
 
 - Aum
 
@@ -26,11 +34,6 @@
 
   - [MyQnA](potae/QnA.md)
   - [Profile](potae/profile.md)
-
-- Ait
-  - [Profile](Ait/profile.md)
-  - [MyQnA](Ait/Amd.md)
-  - [MyQ&YouA](Ait/MyQ&YouA.md)
 
 
 - สมาชิกคนอื่นๆ
