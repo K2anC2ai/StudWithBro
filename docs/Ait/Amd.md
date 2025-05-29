@@ -20,10 +20,10 @@
 **Question 2**
 
 ```bash
-พน. มาคิดใหม่
+Why you need tester?
 ```
 <span style="color:red">Answer</span><br>
 
 ```bash
-พน. มาคิดใหม่
+Coder often ignore mistakes. because u think that you did it right.😎
 ```
